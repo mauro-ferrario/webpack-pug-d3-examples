@@ -1,0 +1,13 @@
+[data-controller="d3-circle-and-animations"]{
+    [class^="chart"]{
+      circle {
+        fill: steelblue;
+      }
+      text {
+        fill: white;
+        font: 10px sans-serif;
+        text-anchor: end;
+      }
+    } 
+  }
+  

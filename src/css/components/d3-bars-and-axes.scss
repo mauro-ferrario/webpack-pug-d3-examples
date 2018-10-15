@@ -1,0 +1,37 @@
+[data-controller="d3-bars-and-axes"]{
+    [class^="chart"]{
+      rect {
+        fill: steelblue;
+        transition: fill .4s;
+        cursor: pointer;
+        &:hover{
+          fill: red;
+        }
+      }
+      text {
+        fill: white;
+        font: 10px sans-serif;
+        text-anchor: middle;
+      }
+
+      .axis text {
+        font: 10px sans-serif;
+        fill: #000;
+      }
+      
+      .axis path,
+      .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+      }
+
+      .x.axis path {
+        display: none;
+      }
+
+    } 
+
+    
+  }
+  
